@@ -5,7 +5,7 @@ function App() {
   const [message, setMessage] = useState('');
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/hello")
+    fetch("https://docker-mini-app-xdet.onrender.com/api/hello")
       .then(res => res.json())
       .then(data => setMessage(data.message))
       .catch(err => setMessage('Could not reach backend'));
