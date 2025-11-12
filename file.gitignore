@@ -1,0 +1,9 @@
+#Ignore Dependencies
+node_modules
+#ignore build folders
+build
+dist
+
+#ignore docker volumes
+mongo-data
+*.env
